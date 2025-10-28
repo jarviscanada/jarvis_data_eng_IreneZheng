@@ -73,8 +73,8 @@ This project collects system information and usage data from Linux hosts and sto
 ## Architecture and Design
 ![Linux Architecture and Design](assets/architecture.png)
 <br>
-This diagram shows how the Linux Cluster Monitoring System works. There are three Linux hosts that collect system information and usage data using Bash scripts. These scripts run automatically through crontab and send the data to a PostgreSQL database running in a Docker container.
-The database stores all the collected information in two tables one for hardware details and one for usage data so everything can be viewed and analyzed in one place.
+This diagram illustrates the operation of the Linux Cluster Monitoring System. Three Linux hosts collect system information and usage data using Bash scripts. These scripts run automatically through crontab and send the data to a PostgreSQL database running in a Docker container.
+The database stores all collected information in two tables: one for hardware details and one for usage data, allowing everything to be viewed and analyzed in one place.
 
 ## Scripts
 This project includes several Bash and SQL scripts that automate database setup, data collection, and analysis.  
@@ -140,8 +140,8 @@ This ensures continuous monitoring without manual input.
 This file contains SQL queries for data analysis and performance reporting.  
 It helps answer questions such as:
 
-- Which hosts have the highest CPU or memory usage?  
-- Which machines are running low on available disk space?  
+- Which hosts have the highest CPU or memory usage?
+- Which machines are running low on available disk space?
 - What times of day show the highest system load?
 
 ```bash
@@ -197,35 +197,35 @@ The testing process ensured that all Bash scripts and SQL DDL files worked corre
 ### 1. Script Testing
 Each Bash script was tested individually on the CentOS virtual machine.
 
-- **psql_docker.sh**  
-  - Verified container creation, start, and stop commands.  
-  - Confirmed the PostgreSQL container was running using `docker ps`.  
-  - Result: Container successfully created and connected to `host_agent` database.
+- **psql_docker.sh**
+    - Verified container creation, start, and stop commands.
+    - Confirmed the PostgreSQL container was running using `docker ps`.
+    - Result: Container successfully created and connected to `host_agent` database.
 
-- **host_info.sh**  
-  - Executed manually to collect hardware information.  
-  - Verified data insertion using:  
-    ```bash
-    psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_info;"
-    ```  
-  - Result: Hardware information inserted successfully for each host.
+- **host_info.sh**
+    - Executed manually to collect hardware information.
+    - Verified data insertion using:
+      ```bash
+      psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_info;"
+      ```  
+    - Result: Hardware information inserted successfully for each host.
 
-- **host_usage.sh**  
-  - Ran the script manually to check system metrics collection.  
-  - Verified that a new record was added each time the script ran.  
-  - Result: Data inserted correctly with accurate timestamp and values.
+- **host_usage.sh**
+    - Ran the script manually to check system metrics collection.
+    - Verified that a new record was added each time the script ran.
+    - Result: Data inserted correctly with accurate timestamp and values.
 
 ### 2. Crontab Testing
 Configured `crontab` to run `host_usage.sh` every minute.
 
-- Checked logs in `/tmp/host_usage.log` to confirm successful execution.  
-- Verified new rows appearing in `host_usage` table each minute.  
+- Checked logs in `/tmp/host_usage.log` to confirm successful execution.
+- Verified new rows appearing in `host_usage` table each minute.
 - Result: Automated data collection worked as expected.
 
 ### 3. Database Schema Testing
-- Executed `sql/ddl.sql` to create the tables.  
-- Used `\d` command in psql to confirm table structures matched the design.  
-- Checked foreign key relationships between `host_info` and `host_usage`.  
+- Executed `sql/ddl.sql` to create the tables.
+- Used `\d` command in psql to confirm table structures matched the design.
+- Checked foreign key relationships between `host_info` and `host_usage`.
 - Result: Tables and constraints created successfully without errors.
 
 ### 4. Validation Queries
@@ -248,8 +248,8 @@ psql -h localhost -U postgres -d host_agent -f sql/queries.sql
 The project was deployed using **Docker**, **GitHub**, and **crontab** for automation.
 
 ### 1. Docker Deployment
-- The PostgreSQL database runs inside a **Docker container** managed by the `psql_docker.sh` script.  
-- This approach ensures a consistent environment and isolates the database from the host system.  
+- The PostgreSQL database runs inside a **Docker container** managed by the `psql_docker.sh` script.
+- This approach ensures a consistent environment and isolates the database from the host system.
 
 **Commands used:**
 ```bash
@@ -313,4 +313,3 @@ While the current version of the Linux Cluster Monitoring Agent meets the core r
 
 - **Add error logging and recovery**  
   Improve the Bash scripts to include detailed log files and automatic retries if a database connection or data insertion fails.
-
