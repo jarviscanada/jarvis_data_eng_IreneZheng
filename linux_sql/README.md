@@ -71,7 +71,8 @@ This project collects system information and usage data from Linux hosts and sto
 ```
 
 ## Architecture and Design
-![](/home/rocky/dev/jarvis_data_eng_IreneZheng/assets/Architecture.jpg)
+![Linux Architecture and Design](assets/architecture.png)
+<br>
 This diagram shows how the Linux Cluster Monitoring System works. There are three Linux hosts that collect system information and usage data using Bash scripts. These scripts run automatically through crontab and send the data to a PostgreSQL database running in a Docker container.
 The database stores all the collected information in two tables one for hardware details and one for usage data so everything can be viewed and analyzed in one place.
 
