@@ -1,0 +1,118 @@
+# Preferred name (Characters only)
+name: "Irene Zheng"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_IreneZheng.git
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: Data Analyst with 2+ years of experience and a Master's in Statistical Modelling.
+  Skilled at building dashboards, automating reporting workflows, and translating data into
+  business insights that drive strategy. Experienced in SQL, Python, and BI tools such as
+  Looker Studio, Tableau, and Power BI. Adept at coordinating across technical and business
+  teams to streamline analytics delivery and ensure data integrity. Passionate about designing
+  scalable data pipelines, enabling self-service analytics, and applying machine learning and
+  statistical modelling to solve real-world business problems.
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - SQL (BigQuery, PostgreSQL, MySQL)
+    - Python (Pandas, NumPy, Matplotlib)
+    - Data Visualization (Looker Studio, Tableau, Power BI)
+    - Data Cleaning & Transformation (ETL/ELT)
+    - Statistical Modelling and Analytics
+  # At least 5 skills
+  competent:
+    - R (Statistical Computing and ggplot2)
+    - Cloud Platforms (GCP, AWS)
+    - Data Warehousing (BigQuery, Snowflake)
+    - Git & Version Control (GitHub)
+    - Dashboard Design and KPI Reporting
+  # At least 5 skills
+  familiar:
+    - PySpark (Distributed Data Processing)
+    - Docker & CI/CD
+    - Machine Learning (Regression, Clustering)
+    - SAS (Statistical Programming)
+    - Java, HTML/CSS/JavaScript (Basic Scripting)
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: "/linux_sql"
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics, enabling server capacity analysis and performance reporting."
+  - name: "SQL Data Analytics"
+    git_url: "/sql"
+    description:
+        "Designed and optimized relational database schemas, wrote complex SQL queries and joins for data analysis, and developed business-ready reports to support performance tracking and decision-making. Applied normalization, indexing, and aggregation techniques for efficient data retrieval and integrity."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+    #project name
+  - name: "E-commerce Performance Dashboard"
+    #URL is optional
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "-Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery. 
+                  -Automated SQL pipelines for key KPIs, including conversion rate, revenue per hour, repeat purchase rate, and CLV. 
+                  -Cutting reporting time by 30% and improving decision speed."
+
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Data Analyst Consultant (Contractor)"
+    company: "Branchy Solution"
+    duration: "May 2025 - Jul 2025"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and
+                  BigQuery. Automated SQL pipelines to calculate key marketing and sales KPIs, built time-series,
+                  geo, and cohort visualizations, and implemented drill-down filters to improve usability and
+                  executive adoption."
+  - title: "Technical Program Manager Intern"
+    company: "Bytedance (TikTok)"
+    duration: "Feb 2023 - Nov 2023"
+    description: "Led multi-team compliance projects, ensuring TikTok data workflow adherence across ingestion
+                  and access layers. Integrated 3,000+ Policy and Security Modules, developed SDLC templates used
+                  by 20+ teams, and built documentation and training resources to support enterprise compliance."
+  - title: "Risk Control Product Manager Intern"
+    company: "Sina Weibo"
+    duration: "May 2021 - Aug 2021"
+    description: "Partnered with engineering and product teams to launch anti-abuse features across Weibo's
+                  public comment system. Conducted UAT, wrote product documentation, and delivered demos to
+                  stakeholders, reducing moderation inconsistencies and harmful content exposure."
+#List of edcuation
+education: 
+  - school_name: "Northeastern University"
+    duration: "Sept 2022 - May 2025"
+    degree: "Master of Professional Studies"
+    department: "Statistical Modelling"
+    awards_achievements:
+      - "Capstone: Sponsor-driven analytics dashboard/model"
+      - "Coursework: Data Warehousing & SQL, Machine Learning, Data Engineering"
+
+  - school_name: "University of Toronto"
+    duration: "Sept 2018 - May 2022"
+    degree: "Honours Bachelor of Science"
+    department: "Statistical Machine Learning and Data Mining"
+    awards_achievements:
+    - "Received UofT Entrance Scholarship of CAD $7,500"
+    - "Graduated with Honours"
+
+#Optional section
+others:
+    #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Udacity Machine Learning (2019)"
+

@@ -1,0 +1,101 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Capstone: Sponsor-driven analytics dashboard/model",
+        "Coursework: Data Warehousing \u0026 SQL, Machine Learning, Data Engineering"
+      ],
+      "degree": "Master of Professional Studies",
+      "department": "Statistical Modelling",
+      "duration": "Sept 2022 - May 2025",
+      "school_name": "Northeastern University"
+    },
+    {
+      "awards_achievements": [
+        "Received UofT Entrance Scholarship of CAD $7,500",
+        "Graduated with Honours"
+      ],
+      "degree": "Honours Bachelor of Science",
+      "department": "Statistical Machine Learning and Data Mining",
+      "duration": "Sept 2018 - May 2022",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_IreneZheng.git",
+  "highlighted_projects": [
+    {
+      "description": "-Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery. -Automated SQL pipelines for key KPIs, including conversion rate, revenue per hour, repeat purchase rate, and CLV. -Cutting reporting time by 30% and improving decision speed.",
+      "name": "E-commerce Performance Dashboard"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics, enabling server capacity analysis and performance reporting.",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Designed and optimized relational database schemas, wrote complex SQL queries and joins for data analysis, and developed business-ready reports to support performance tracking and decision-making. Applied normalization, indexing, and aggregation techniques for efficient data retrieval and integrity.",
+      "git_url": "/sql",
+      "name": "SQL Data Analytics"
+    },
+    {
+      "description": "",
+      "git_url": "/springboot",
+      "name": "Springboot App"
+    }
+  ],
+  "name": "Irene Zheng",
+  "others": [
+    {
+      "bullets": [
+        "Udacity Machine Learning (2019)"
+      ],
+      "title": "Certificates"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Branchy Solution",
+      "description": "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and BigQuery. Automated SQL pipelines to calculate key marketing and sales KPIs, built time-series, geo, and cohort visualizations, and implemented drill-down filters to improve usability and executive adoption.",
+      "duration": "May 2025 - Jul 2025",
+      "title": "Data Analyst Consultant (Contractor)"
+    },
+    {
+      "company": "Bytedance (TikTok)",
+      "description": "Led multi-team compliance projects, ensuring TikTok data workflow adherence across ingestion and access layers. Integrated 3,000+ Policy and Security Modules, developed SDLC templates used by 20+ teams, and built documentation and training resources to support enterprise compliance.",
+      "duration": "Feb 2023 - Nov 2023",
+      "title": "Technical Program Manager Intern"
+    },
+    {
+      "company": "Sina Weibo",
+      "description": "Partnered with engineering and product teams to launch anti-abuse features across Weibo's public comment system. Conducted UAT, wrote product documentation, and delivered demos to stakeholders, reducing moderation inconsistencies and harmful content exposure.",
+      "duration": "May 2021 - Aug 2021",
+      "title": "Risk Control Product Manager Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "R (Statistical Computing and ggplot2)",
+      "Cloud Platforms (GCP, AWS)",
+      "Data Warehousing (BigQuery, Snowflake)",
+      "Git \u0026 Version Control (GitHub)",
+      "Dashboard Design and KPI Reporting"
+    ],
+    "familiar": [
+      "PySpark (Distributed Data Processing)",
+      "Docker \u0026 CI/CD",
+      "Machine Learning (Regression, Clustering)",
+      "SAS (Statistical Programming)",
+      "Java, HTML/CSS/JavaScript (Basic Scripting)"
+    ],
+    "proficient": [
+      "SQL (BigQuery, PostgreSQL, MySQL)",
+      "Python (Pandas, NumPy, Matplotlib)",
+      "Data Visualization (Looker Studio, Tableau, Power BI)",
+      "Data Cleaning \u0026 Transformation (ETL/ELT)",
+      "Statistical Modelling and Analytics"
+    ]
+  },
+  "summary": "Data Analyst with 2+ years of experience and a Master's in Statistical Modelling. Skilled at building dashboards, automating reporting workflows, and translating data into business insights that drive strategy. Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI. Adept at coordinating across technical and business teams to streamline analytics delivery and ensure data integrity. Passionate about designing scalable data pipelines, enabling self-service analytics, and applying machine learning and statistical modelling to solve real-world business problems."
+}
