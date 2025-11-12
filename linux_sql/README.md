@@ -314,3 +314,4 @@ While the current version of the Linux Cluster Monitoring Agent meets the core r
 - **Add error logging and recovery**  
   Improve the Bash scripts to include detailed log files and automatic retries if a database connection or data insertion fails.
 
+This project is under development. Since this project follows the GitFlow, the final work will be merged to the main branch after Team Code Team.
