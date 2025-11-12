@@ -21,55 +21,65 @@
       "school_name": "University of Toronto"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_IreneZheng.git",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_IreneZheng",
   "highlighted_projects": [
     {
-      "description": "-Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery. -Automated SQL pipelines for key KPIs, including conversion rate, revenue per hour, repeat purchase rate, and CLV. -Cutting reporting time by 30% and improving decision speed.",
+      "description": "Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery.  Automated SQL pipelines for KPIs such as conversion rate, revenue per hour, repeat purchase rate, and customer lifetime value.  Reduced manual reporting time by 30% and improved decision-making efficiency through real-time analytics.\n",
       "name": "E-commerce Performance Dashboard"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics, enabling server capacity analysis and performance reporting.",
+      "description": "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics.  Automated data collection with cron jobs and developed SQL scripts for capacity analysis and performance reporting.\n",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
-      "description": "Designed and optimized relational database schemas, wrote complex SQL queries and joins for data analysis, and developed business-ready reports to support performance tracking and decision-making. Applied normalization, indexing, and aggregation techniques for efficient data retrieval and integrity.",
+      "description": "Designed normalized database schemas, optimized SQL queries and joins, and created business-ready reports  to support decision-making. Applied indexing, aggregation, and normalization techniques for efficiency and data integrity.\n",
       "git_url": "/sql",
       "name": "SQL Data Analytics"
     },
     {
-      "description": "",
+      "description": "Developed a RESTful microservice using Spring Boot and Docker to demonstrate modern Java backend development.  Implemented CRUD endpoints, layered architecture, and API testing for robust functionality and maintainability.\n",
       "git_url": "/springboot",
-      "name": "Springboot App"
+      "name": "Spring Boot App"
     }
   ],
   "name": "Irene Zheng",
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
+        "Academy Accreditation - Databricks Fundamentals",
+        "Google Data Analytics (Coursera)",
+        "AWS Cloud Practitioner ¨C In Progress"
       ],
       "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Skiing and outdoor recreation",
+        "Badminton",
+        "Community volunteering"
+      ],
+      "title": "Activities/Hobbies"
     }
   ],
   "professional_experience": [
     {
       "company": "Branchy Solution",
-      "description": "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and BigQuery. Automated SQL pipelines to calculate key marketing and sales KPIs, built time-series, geo, and cohort visualizations, and implemented drill-down filters to improve usability and executive adoption.",
+      "description": "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and BigQuery.  Automated SQL pipelines for key sales and marketing KPIs, built time-series, geo, and cohort analyses,  and implemented dynamic filters to enhance usability and executive adoption.\n",
       "duration": "May 2025 - Jul 2025",
       "title": "Data Analyst Consultant (Contractor)"
     },
     {
       "company": "Bytedance (TikTok)",
-      "description": "Led multi-team compliance projects, ensuring TikTok data workflow adherence across ingestion and access layers. Integrated 3,000+ Policy and Security Modules, developed SDLC templates used by 20+ teams, and built documentation and training resources to support enterprise compliance.",
+      "description": "Led cross-functional data compliance initiatives involving 14+ R\u0026D teams.  Integrated over 3,000 Policy and Security Modules (PSMs) into the Bytemesh system to enhance audit readiness.  Standardized SDLC documentation and delivered training sessions to improve compliance efficiency across teams.\n",
       "duration": "Feb 2023 - Nov 2023",
       "title": "Technical Program Manager Intern"
     },
     {
       "company": "Sina Weibo",
-      "description": "Partnered with engineering and product teams to launch anti-abuse features across Weibo's public comment system. Conducted UAT, wrote product documentation, and delivered demos to stakeholders, reducing moderation inconsistencies and harmful content exposure.",
+      "description": "Collaborated with engineering and product teams to launch and validate risk control features for Weibo¡¯s public comment system.  Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.\n",
       "duration": "May 2021 - Aug 2021",
       "title": "Risk Control Product Manager Intern"
     }
@@ -77,7 +87,7 @@
   "skills": {
     "competent": [
       "R (Statistical Computing and ggplot2)",
-      "Cloud Platforms (GCP, AWS)",
+      "Cloud Platforms (AWS, GCP)",
       "Data Warehousing (BigQuery, Snowflake)",
       "Git \u0026 Version Control (GitHub)",
       "Dashboard Design and KPI Reporting"
@@ -97,5 +107,5 @@
       "Statistical Modelling and Analytics"
     ]
   },
-  "summary": "Data Analyst with 2+ years of experience and a Master's in Statistical Modelling. Skilled at building dashboards, automating reporting workflows, and translating data into business insights that drive strategy. Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI. Adept at coordinating across technical and business teams to streamline analytics delivery and ensure data integrity. Passionate about designing scalable data pipelines, enabling self-service analytics, and applying machine learning and statistical modelling to solve real-world business problems."
+  "summary": "Data Analyst with over 2 years of experience and a Master¡¯s in Statistical Modelling.  Skilled in transforming data into actionable insights through automation, visualization, and storytelling.  Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI.  Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity.  Passionate about designing scalable pipelines, enabling self-service analytics, and applying statistical modelling  and machine learning to optimize business performance and inform strategic decisions.\n"
 }

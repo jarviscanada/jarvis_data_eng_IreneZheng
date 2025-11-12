@@ -1,36 +1,32 @@
 # Preferred name (Characters only)
 name: "Irene Zheng"
+
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_IreneZheng.git
+github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_IreneZheng"
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: Data Analyst with 2+ years of experience and a Master's in Statistical Modelling.
-  Skilled at building dashboards, automating reporting workflows, and translating data into
-  business insights that drive strategy. Experienced in SQL, Python, and BI tools such as
-  Looker Studio, Tableau, and Power BI. Adept at coordinating across technical and business
-  teams to streamline analytics delivery and ensure data integrity. Passionate about designing
-  scalable data pipelines, enabling self-service analytics, and applying machine learning and
-  statistical modelling to solve real-world business problems.
+# Summary (80+ words)
+summary: >
+  Data Analyst with over 2 years of experience and a Master¡¯s in Statistical Modelling. 
+  Skilled in transforming data into actionable insights through automation, visualization, and storytelling. 
+  Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI. 
+  Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity. 
+  Passionate about designing scalable pipelines, enabling self-service analytics, and applying statistical modelling 
+  and machine learning to optimize business performance and inform strategic decisions.
 
-# Group your skills by level.
-# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+# Skills grouped by proficiency
 skills:
-  # At least 5 skills
   proficient:
     - SQL (BigQuery, PostgreSQL, MySQL)
     - Python (Pandas, NumPy, Matplotlib)
     - Data Visualization (Looker Studio, Tableau, Power BI)
     - Data Cleaning & Transformation (ETL/ELT)
     - Statistical Modelling and Analytics
-  # At least 5 skills
   competent:
     - R (Statistical Computing and ggplot2)
-    - Cloud Platforms (GCP, AWS)
+    - Cloud Platforms (AWS, GCP)
     - Data Warehousing (BigQuery, Snowflake)
     - Git & Version Control (GitHub)
     - Dashboard Design and KPI Reporting
-  # At least 5 skills
   familiar:
     - PySpark (Distributed Data Processing)
     - Docker & CI/CD
@@ -38,60 +34,61 @@ skills:
     - SAS (Statistical Programming)
     - Java, HTML/CSS/JavaScript (Basic Scripting)
 
-# List of Jarvis projects
+# Jarvis Projects
 jarvis_projects:
   - name: "Cluster Monitor"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics, enabling server capacity analysis and performance reporting."
+    description: >
+      Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics. 
+      Automated data collection with cron jobs and developed SQL scripts for capacity analysis and performance reporting.
+
   - name: "SQL Data Analytics"
     git_url: "/sql"
-    description:
-        "Designed and optimized relational database schemas, wrote complex SQL queries and joins for data analysis, and developed business-ready reports to support performance tracking and decision-making. Applied normalization, indexing, and aggregation techniques for efficient data retrieval and integrity."
-  - name: "Springboot App"
+    description: >
+      Designed normalized database schemas, optimized SQL queries and joins, and created business-ready reports 
+      to support decision-making. Applied indexing, aggregation, and normalization techniques for efficiency and data integrity.
+
+  - name: "Spring Boot App"
     git_url: "/springboot"
-    description: ""
+    description: >
+      Developed a RESTful microservice using Spring Boot and Docker to demonstrate modern Java backend development. 
+      Implemented CRUD endpoints, layered architecture, and API testing for robust functionality and maintainability.
 
-
-# List of personal or academic projects
-# Feel free to add more projects
+# Highlighted Projects
 highlighted_projects:
-    #project name
   - name: "E-commerce Performance Dashboard"
-    #URL is optional
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "-Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery. 
-                  -Automated SQL pipelines for key KPIs, including conversion rate, revenue per hour, repeat purchase rate, and CLV. 
-                  -Cutting reporting time by 30% and improving decision speed."
+    description: >
+      Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery. 
+      Automated SQL pipelines for KPIs such as conversion rate, revenue per hour, repeat purchase rate, and customer lifetime value. 
+      Reduced manual reporting time by 30% and improved decision-making efficiency through real-time analytics.
 
-#List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+# Professional Experience
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
   - title: "Data Analyst Consultant (Contractor)"
     company: "Branchy Solution"
     duration: "May 2025 - Jul 2025"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and
-                  BigQuery. Automated SQL pipelines to calculate key marketing and sales KPIs, built time-series,
-                  geo, and cohort visualizations, and implemented drill-down filters to improve usability and
-                  executive adoption."
+    description: >
+      Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and BigQuery. 
+      Automated SQL pipelines for key sales and marketing KPIs, built time-series, geo, and cohort analyses, 
+      and implemented dynamic filters to enhance usability and executive adoption.
+
   - title: "Technical Program Manager Intern"
     company: "Bytedance (TikTok)"
     duration: "Feb 2023 - Nov 2023"
-    description: "Led multi-team compliance projects, ensuring TikTok data workflow adherence across ingestion
-                  and access layers. Integrated 3,000+ Policy and Security Modules, developed SDLC templates used
-                  by 20+ teams, and built documentation and training resources to support enterprise compliance."
+    description: >
+      Led cross-functional data compliance initiatives involving 14+ R&D teams. 
+      Integrated over 3,000 Policy and Security Modules (PSMs) into the Bytemesh system to enhance audit readiness. 
+      Standardized SDLC documentation and delivered training sessions to improve compliance efficiency across teams.
+
   - title: "Risk Control Product Manager Intern"
     company: "Sina Weibo"
     duration: "May 2021 - Aug 2021"
-    description: "Partnered with engineering and product teams to launch anti-abuse features across Weibo's
-                  public comment system. Conducted UAT, wrote product documentation, and delivered demos to
-                  stakeholders, reducing moderation inconsistencies and harmful content exposure."
-#List of edcuation
-education: 
+    description: >
+      Collaborated with engineering and product teams to launch and validate risk control features for Weibo¡¯s public comment system. 
+      Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.
+
+# Education
+education:
   - school_name: "Northeastern University"
     duration: "Sept 2022 - May 2025"
     degree: "Master of Professional Studies"
@@ -105,8 +102,21 @@ education:
     degree: "Honours Bachelor of Science"
     department: "Statistical Machine Learning and Data Mining"
     awards_achievements:
-    - "Received UofT Entrance Scholarship of CAD $7,500"
-    - "Graduated with Honours"
+      - "Received UofT Entrance Scholarship of CAD $7,500"
+      - "Graduated with Honours"
+
+# Other Information
+others:
+  - title: "Certificates"
+    bullets:
+      - "Academy Accreditation - Databricks Fundamentals"
+      - "Google Data Analytics (Coursera)"
+      - "AWS Cloud Practitioner ¨C In Progress"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Skiing and outdoor recreation"
+      - "Badminton"
+      - "Community volunteering"
 
 
 
