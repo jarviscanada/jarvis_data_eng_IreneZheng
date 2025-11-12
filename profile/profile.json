@@ -1,0 +1,109 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Capstone: Sponsor-driven analytics dashboard/model",
+        "Coursework: Data Warehousing \u0026 SQL, Machine Learning, Data Engineering"
+      ],
+      "degree": "Master of Professional Studies",
+      "department": "Statistical Modelling",
+      "duration": "Sept 2022 - May 2025",
+      "school_name": "Northeastern University"
+    },
+    {
+      "awards_achievements": [
+        "Received UofT Entrance Scholarship of CAD $7,500",
+        "Graduated with Honours"
+      ],
+      "degree": "Honours Bachelor of Science",
+      "department": "Statistical Machine Learning and Data Mining",
+      "duration": "Sept 2018 - May 2022",
+      "school_name": "University of Toronto"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_IreneZheng",
+  "highlighted_projects": [
+    {
+      "description": "Designed and developed a full-stack e-commerce performance dashboard using Looker Studio and BigQuery.  Automated SQL pipelines for KPIs such as conversion rate, revenue per hour, repeat purchase rate, and customer lifetime value.  Reduced manual reporting time by 30% and improved decision-making efficiency through real-time analytics.\n",
+      "name": "E-commerce Performance Dashboard"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Implemented a Linux host monitoring solution using Bash and PostgreSQL to collect and visualize system metrics.  Automated data collection with cron jobs and developed SQL scripts for capacity analysis and performance reporting.\n",
+      "git_url": "/linux_sql",
+      "name": "Cluster Monitor"
+    },
+    {
+      "description": "Designed normalized database schemas, optimized SQL queries and joins, and created business-ready reports  to support decision-making. Applied indexing, aggregation, and normalization techniques for efficiency and data integrity.\n",
+      "git_url": "/sql",
+      "name": "SQL Data Analytics"
+    },
+    {
+      "description": "Developed a RESTful microservice using Spring Boot and Docker to demonstrate modern Java backend development.  Implemented CRUD endpoints, layered architecture, and API testing for robust functionality and maintainability.\n",
+      "git_url": "/springboot",
+      "name": "Spring Boot App"
+    }
+  ],
+  "name": "Irene Zheng",
+  "others": [
+    {
+      "bullets": [
+        "Academy Accreditation - Databricks Fundamentals"
+      ],
+      "title": "Certificates"
+    },
+    {
+      "bullets": [
+        "Skiing and outdoor recreation",
+        "Badminton",
+        "Community volunteering"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Branchy Solution",
+      "description": "Designed and deployed an end-to-end e-commerce performance dashboard using Looker Studio and BigQuery.  Automated SQL pipelines for key sales and marketing KPIs, built time-series, geo, and cohort analyses,  and implemented dynamic filters to enhance usability and executive adoption.\n",
+      "duration": "May 2025 - Jul 2025",
+      "title": "Data Analyst Consultant (Contractor)"
+    },
+    {
+      "company": "Bytedance (TikTok)",
+      "description": "Led cross-functional data compliance initiatives involving 14+ R\u0026D teams.  Integrated over 3,000 Policy and Security Modules (PSMs) into the Bytemesh system to enhance audit readiness.  Standardized SDLC documentation and delivered training sessions to improve compliance efficiency across teams.\n",
+      "duration": "Feb 2023 - Nov 2023",
+      "title": "Technical Program Manager Intern"
+    },
+    {
+      "company": "Sina Weibo",
+      "description": "Collaborated with engineering and product teams to launch and validate risk control features for Weibo's public comment system.  Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.\n",
+      "duration": "May 2021 - Aug 2021",
+      "title": "Risk Control Product Manager Intern"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "R (Statistical Computing and ggplot2)",
+      "Cloud Platforms (AWS, GCP)",
+      "Data Warehousing (BigQuery, Snowflake)",
+      "Git \u0026 Version Control (GitHub)",
+      "Dashboard Design and KPI Reporting"
+    ],
+    "familiar": [
+      "PySpark (Distributed Data Processing)",
+      "Docker \u0026 CI/CD",
+      "Machine Learning (Regression, Clustering)",
+      "SAS (Statistical Programming)",
+      "Java, HTML/CSS/JavaScript (Basic Scripting)"
+    ],
+    "proficient": [
+      "SQL (BigQuery, PostgreSQL, MySQL)",
+      "Python (Pandas, NumPy, Matplotlib)",
+      "Data Visualization (Looker Studio, Tableau, Power BI)",
+      "Data Cleaning \u0026 Transformation (ETL/ELT)",
+      "Statistical Modelling and Analytics"
+    ]
+  },
+  "summary": "Data Analyst with over 2 years of experience and a Master's in Statistical Modelling.  Skilled in transforming data into actionable insights through automation, visualization, and storytelling.  Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI.  Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity.  Passionate about designing scalable pipelines, enabling self-service analytics, and applying statistical modelling  and machine learning to optimize business performance and inform strategic decisions.\n"
+}
