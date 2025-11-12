@@ -1,6 +1,6 @@
 # Irene Zheng . Jarvis Consulting
 
-Data Analyst with over 2 years of experience and a Master¡¯s in Statistical Modelling.  Skilled in transforming data into actionable insights through automation, visualization, and storytelling.  Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI.  Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity.  Passionate about designing scalable pipelines, enabling self-service analytics, and applying statistical modelling  and machine learning to optimize business performance and inform strategic decisions.
+Data Analyst with over 2 years of experience and a Master's in Statistical Modelling.  Skilled in transforming data into actionable insights through automation, visualization, and storytelling.  Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI.  Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity.  Passionate about designing scalable pipelines, enabling self-service analytics, and applying statistical modelling  and machine learning to optimize business performance and inform strategic decisions.
 
 
 ## Skills
@@ -39,7 +39,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_IreneZheng
 **Technical Program Manager Intern, Bytedance (TikTok) (Feb 2023 - Nov 2023)**: Led cross-functional data compliance initiatives involving 14+ R&D teams.  Integrated over 3,000 Policy and Security Modules (PSMs) into the Bytemesh system to enhance audit readiness.  Standardized SDLC documentation and delivered training sessions to improve compliance efficiency across teams.
 
 
-**Risk Control Product Manager Intern, Sina Weibo (May 2021 - Aug 2021)**: Collaborated with engineering and product teams to launch and validate risk control features for Weibo¡¯s public comment system.  Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.
+**Risk Control Product Manager Intern, Sina Weibo (May 2021 - Aug 2021)**: Collaborated with engineering and product teams to launch and validate risk control features for Weibo's public comment system.  Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.
 
 
 

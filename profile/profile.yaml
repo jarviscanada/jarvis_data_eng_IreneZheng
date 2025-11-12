@@ -6,7 +6,7 @@ github_repo_root_url: "https://github.com/jarviscanada/jarvis_data_eng_IreneZhen
 
 # Summary (80+ words)
 summary: >
-  Data Analyst with over 2 years of experience and a Master¡¯s in Statistical Modelling. 
+  Data Analyst with over 2 years of experience and a Master's in Statistical Modelling. 
   Skilled in transforming data into actionable insights through automation, visualization, and storytelling. 
   Experienced in SQL, Python, and BI tools such as Looker Studio, Tableau, and Power BI. 
   Adept at collaborating with cross-functional teams to streamline analytics workflows and ensure data integrity. 
@@ -84,7 +84,7 @@ professional_experience:
     company: "Sina Weibo"
     duration: "May 2021 - Aug 2021"
     description: >
-      Collaborated with engineering and product teams to launch and validate risk control features for Weibo¡¯s public comment system. 
+      Collaborated with engineering and product teams to launch and validate risk control features for Weibo's public comment system. 
       Conducted UAT testing, created technical documentation, and presented product demos, contributing to a 20% reduction in harmful content.
 
 # Education
