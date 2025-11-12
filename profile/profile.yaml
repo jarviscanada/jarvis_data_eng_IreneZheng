@@ -108,11 +108,5 @@ education:
     - "Received UofT Entrance Scholarship of CAD $7,500"
     - "Graduated with Honours"
 
-#Optional section
-others:
-    #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
+
 
