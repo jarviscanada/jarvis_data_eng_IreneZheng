@@ -71,18 +71,6 @@ highlighted_projects:
       Automated SQL pipelines for KPIs such as conversion rate, revenue per hour, repeat purchase rate, and customer lifetime value. 
       Reduced manual reporting time by 30% and improved decision-making efficiency through real-time analytics.
 
-  - name: "SDLC Process Standardization Framework"
-    description: >
-      Developed and standardized SDLC documentation and delivery workflows during my Bytedance internship. 
-      Created reusable compliance templates, requirement checklists, and process guidelines adopted by 20+ R&D teams. 
-      Improved project delivery consistency, reduced onboarding time for new engineers, and strengthened product quality and regulatory readiness across multiple business units.
-
-  - name: "Marine Conservation Analytics (OCC)"
-    description: >
-      Consolidated and analyzed multi-source marine datasets to study debris distribution and ecosystem impact. 
-      Built Python-based data cleaning and visualization workflows, applying time-series and spatial analyses to identify key patterns. 
-      Delivered findings to support sustainable marine ecosystem management and policy development.
-
 # Professional Experience
 professional_experience:
   - title: "Data Analyst Consultant (Contractor)"
