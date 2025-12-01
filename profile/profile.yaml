@@ -107,7 +107,7 @@ professional_experience:
     company: "Sina Weibo"
     duration: "May 2021 - Aug 2021"
     description: >
-      Participated in the launch and testing of key risk control features across Weibo's public comment system; independently validated business logic and ensured consistency in moderation outcomes.
+      Participated in the launch and testing of key risk control features across Weibos public comment system; independently validated business logic and ensured consistency in moderation outcomes.
       Coordinated engineering and product teams to deliver anti-abuse modules on time, resolving 80% of launch blockers before deployment.
       Conducted UAT testing, created documentation for feature rollouts, and delivered product demos to internal stakeholders.
       Contributed to a cross-departmental effort to reduce harmful content, helping decrease inappropriate posts in high-traffic areas by 20% using improved detection rules.
